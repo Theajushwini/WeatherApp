@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #222;
+  background-image: url('https://source.unsplash.com/1600x900/?landscape');
+  font-size: 1.2rem;
+  color: white;
+}
+
+.card, .suggestions {
+  background: rgba(27, 26, 26, 0.8);
+  padding: 0.5em;
+  border-radius: 8px;
+  margin: 2em;
+}
+.suggestions:hover{
+  
+  background:rgba(154, 153, 153, 0.35);
+}
+.search {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+button {
+  border: none;
+  border-radius: 30%;
+  background: rgba(154, 153, 153, 0.35);
+  color: white;
+  cursor: pointer;
+  padding: 0.5em;
+  transition: background 0.2s ease-in-out;
+}
+
+button:hover {
+  background: rgba(149, 97, 153, 0.45);
+
+}
+
+input.search-bar {
+  border: none;
+  border-radius: 30px;
+  background: rgba(124, 124, 124, 0.35);
+  color: white;
+  font-family: inherit;
+  font-size: 1.00rem;
+  padding: 0.4em 1em;
+  width: 100%;
+  max-width: 720px;
+}
+input.search-bar:hover{
+  background: rgba(149, 97, 153, 0.45);
+}
+
+h1.temp {
+  margin-bottom: 0.5em;
+}
